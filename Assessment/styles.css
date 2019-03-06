@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+html {
+    box-sizing: border-box;   
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+
+.logIn {
+    display: flex;
+    background-color: rgb(100, 116, 140);
+    width: 40%;
+    height: 350px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.fun {
+    margin-bottom: 30px;
+    display: flex;
+    
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    height: 500px;
+  
+    position: relative;
+}
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 100px;
+    font-family: 'Cabin', sans-serif;
+}
+button:hover {
+    background-color: #EAEAEA;  
+}
